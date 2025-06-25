@@ -1,13 +1,17 @@
 {
-  "name": "server",
+  "name": "plp-week4-task-manager-full",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "packageManager": "pnpm@10.12.1",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
